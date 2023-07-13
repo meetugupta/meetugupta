@@ -105,7 +105,8 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  #background: rgba(255, 144, 0, 0.9);
+  background: #87CEEB;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -1138,10 +1139,11 @@ input[type="text"] {
   #color: #FF9000;
   color: #87CEEB;
   #border: 2px solid #FF9000;
-  border: 2px solid #87EEB;
+  border: 2px solid #87CEEB;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF9000;
+  #background: #FF9000;
+  background: #87CEEB;
   color: #fff;
 }
 
@@ -1271,7 +1273,8 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FF9000;
+  #border-color: #FF9000;
+  border-color: #87CEEB;
 }
 
 .row-pb-md {
